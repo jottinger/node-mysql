@@ -9,6 +9,7 @@ you spot any mistakes.
 * Add `POOL_CLOSED` code to "Pool is closed." error
 * Add `POOL_CONNLIMIT` code to "No connections available." error #1332
 * Fix edge cases constructing long stack traces #1387
+* Fix handshake inactivity timeout on Node.js v4.2.0 #1223 #1236 #1239 #1240 #1241 #1252
 * Fix Query stream to emit close after ending #1349 #1350
 * Fix type cast for BIGINT columns when number is negative #1376
 * Performance improvements for array/object escaping in SqlString #1331
